@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Survey form</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="js.js" type="javascript"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        
+        <h1 id="title">Survey form</h1>
+        <p id="description">A Surver Form For Personal Information</p>
+        <div class="container">
+        <form id="survey-form">
+            <fieldset>
+                <label id="name-label" for="name">Name</label>
+                <input type="text" id="name" placeholder="pawan">
+                <label id="email-label" for="email">Email</label>
+                <input type="email" id="email" placeholder="pawan.kharel360@gmail.com">
+                <label id="age-label" for="number">age</label>
+                <input type="number" id="number" placeholder="4" min="1" max="10" >
+                <label for="downdrop" id="select">Select Your Country</label>
+                <select id="dropdown">
+                    <option hidden>select your country</option>
+                    <option>Nepal</option>
+                    <option>India</option>
+                    <option>China</option>
+                    <option>Bangladesh</option>
+                    <option>SL</option>
+                 
+                    
+            </select>
+            <label id="gender-label">Gender</label><br>
+
+            <label for="gender-male">Male</label>
+            <input type="radio" name="gender" id="gender-male">
+
+            <label for="gender-female">Female</label>
+            <input type="radio" name="gender" id="gender-female">
+
+            <label for="gender-others" >Others</label>
+            <input type="radio" name="gender" id="gender-others"><br><br>
+            
+            <label id="hobbies-label">Hobbies</label><br>
+
+
+            <label for="hobbies" id="hobbies">Games</label>
+            <input type="checkbox" value="games" id="hobbies">
+
+            <label for="hobbies" id="hobbies">Coding</label>
+            <input type="checkbox" value="coding" id="hobbies">
+
+            <label for="hobbies" id="hobbies">Cards</label>
+            <input type="checkbox" value="cards" id="hobbies"><br><br>
+
+            <label for="comment" id="comment-label">Comments</label><br>
+            <textarea id="commment"></textarea>
+
+            <input type="submit"></input>
+
+
+
+
+
+            
+            </fieldset>
+       </form>
+    </div>
+    </body>
+</html>
